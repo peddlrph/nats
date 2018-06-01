@@ -85,7 +85,7 @@ func UploadMessages(token string, messages []byte) {
 
 		// Msg structure
 		msg := &nats.Msg{
-			Subject: "foo",
+			Subject: "lm",
 			Reply:   "bar",
 			Data:    messages,
 		}
